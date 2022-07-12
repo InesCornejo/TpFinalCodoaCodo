@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto</title>
+    <link rel="stylesheet" href="css/style3.css"> 
+    <script src="https://kit.fontawesome.com/9c4f77c18f.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+<!-- No sabía si era necesario poner el link acá pero de otra forma no me funcionaba con el fond que yo quería-->    
+<header>
+    <div class="header-logo"><a href= "index.html"><img src="img/logoredondotransparente.png" alt=""></a> </div>
+    <nav class="header-menubar">
+        <ul>
+        <li><a href="sobremi.html">Sobre mí</a></li>
+        <li><a href="recetas.html">Recetas</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+         </ul>
+    </nav>
+</header>
+        <main>
+            <form action="" method="POST" id="form">
+                <div class="form">
+                    <h1>Contáctame</h1>
+                    <div class="grupo">
+                        <input type="text" name="" id="name" required><span class="barra"></span>
+                        <label for="">Nombre y Apellido</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="email" name="" id="email" required><span class="barra"></span>
+                        <label for="">Email</label>
+                    </div>
+                    <div class="grupo">
+                        <input type="text" name="" id="message" required><span class="barra"></span>
+                        <label for="">Mensaje</label>
+                    </div>
+
+                    <button type="submit">Enviar</button>
+                    <p class="warnings" id="warnings"></p>
+                </div>
+            </form>
+        <script src="form.js"></script>
+        </main>
+        <footer class="pie-pagina">
+            <div class="grupo-1">
+                <div class="box">
+                    <figure>
+                        <a href="#">
+                            <img src="img/logoredondotransparente.png" alt="Logo de Buenos Aires Bon Appetit">
+                        </a>
+                    </figure>
+                </div>
+                <div class="box">
+                    <h2>¿TE INTERESA TRABAJAR CONMIGO?</h2>
+                    <p>Si la respuesta es sí, seguime en mis redes sociales y dejame un mensaje en Contacto. Gracias por visitar mi página ❤️</p>
+                </div>
+                <div class="box">
+                    <h2>SEGUIME</h2>
+                    <div class="red-social">
+                        <a href="https://www.facebook.com/bsasbonappetit" class="fa fa-facebook"></a>
+                        <a href="https://www.instagram.com/bsasbonappetit/" class="fa fa-instagram"></a>
+                        <a href="mailto:esfortzuacontenidos@gmail.com" class="fa-solid fa-envelope"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="grupo-2">
+                <small>&copy; 2022 <b>Esfortzua Contenidos | Ines Cornejo</b> - Todos los Derechos Reservados.</small>
+            </div>
+        </footer>
+    </body>
+    </html>
